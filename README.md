@@ -180,7 +180,8 @@ The following is the steps completed to refactor the original VBA code:
 
 21. Record and the present the stock markets results for each stock's total daily volume traded and return on investment for 2017 and 2018.  Make note of time needed to run the code.  The results of these analyses are included in the links below:
 
-
+        - 2017 Results (https://github.com/jbowman86/VBA_Challenge/blob/de828b4b55fac96e530b737d3c06c2c101d7f0b3/Resources/VBA_Challenge_2017%202.png)
+        - 2018 Results
 
 INSERT links to images 
 
