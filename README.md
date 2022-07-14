@@ -186,7 +186,7 @@ The following is the steps completed to refactor the original VBA code:
 
 22. Compare results with original code.  The original results are inlcuded below:
 
-- Original 2017 Results
+- Original 2017 Results (https://github.com/jbowman86/VBA_Challenge/blob/9dbadc10561f0e82aca8929fad4ba4ade6d681a8/Resources/VBA_Challenge_Original_2017_stock_analysis.png)
 - Original 2018 Results
 
 ## Summary
