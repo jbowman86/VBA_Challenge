@@ -178,7 +178,9 @@ The following is the steps completed to refactor the original VBA code:
 
 20. Run the refactored code.
 
-21. Record and the present the stock markets results for each stock's total daily volume traded and return on investment for 2017 and 2018.  Make note of time needed to run the code.
+21. Record and the present the stock markets results for each stock's total daily volume traded and return on investment for 2017 and 2018.  Make note of time needed to run the code.  The results of these analyses are included in the links below:
+
+
 
 INSERT links to images 
 
