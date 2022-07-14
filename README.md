@@ -2,7 +2,7 @@
 
 ## Overview of Project
 
-The aim of this project is to analyse the yearly stock data in order to compare stock performance for the years 2017 and 2018.  To accomplish this task, the VBA script was refactored to determine total daily volume of trades for each stock as well as its rate of return.  Analysis was completed using Excel and VBA code.  The refactored code were then be timed and compared against the original code to determine if newer code is more efficient.  The end goal of this analysis is to provide information of stocks from the years 2017 and 2018 to thereby identify stocks that have the best return. Therefore, determining which stocks should be invested in future.
+The aim of this project is to analyse the yearly stock data in order to compare stock performance for the years 2017 and 2018.  To accomplish this task, the VBA script was refactored to determine total daily volume of trades for each stock as well as its rate of return.  Analysis was completed using Excel and VBA code.  The refactored code was then timed and compared against the original code to determine if newer code is more efficient.  The end goal of this analysis is to provide information of stocks from the years 2017 and 2018 to thereby identify stocks that have the best return and should be invested in future.
 
 ## Results
 
@@ -114,7 +114,7 @@ The following is the steps completed to refactor the original VBA code:
             
         End If
 
-14.Write script that increases the tickerIndex if the next row's ticker doesn't match the previous row's ticker.
+14. Write script that increases the tickerIndex if the next row's ticker doesn't match the previous row's ticker.
 
         If Cells(i, 1).Value = tickers(tickerIndex) And Cells(i + 1, 1).Value <> tickers(tickerIndex) Then
                 tickerIndex = tickerIndex + 1
@@ -125,7 +125,7 @@ The following is the steps completed to refactor the original VBA code:
 
         Next i
 
-16. Create a for loop to loop through array (tickers, tickerVolumes, tickerStartingPrices, tickerendingPrices) to output the "Ticker", "Total Daily Volume", and "Return" results in the spreadsheet.
+16. Create a for loop to loop through array (tickers, tickerVolumes, tickerStartingPrices, tickerEndingPrices) to output the "Ticker", "Total Daily Volume", and "Return" results in the spreadsheet.
 
 
         For i = 0 To 11
@@ -188,7 +188,7 @@ The following is the steps completed to refactor the original VBA code:
 - 2018 Results (https://github.com/jbowman86/VBA_Challenge/blob/82ae1b4fabeb3ebcc61fdad075849b3ea9733963/Resources/VBA_Challenge_2018.png)
 
 
-22. Compare results with original code.  The original results are inlcuded below:
+22. Compare results with original code.  The original results are included below:
 
 - Original 2017 Results (https://github.com/jbowman86/VBA_Challenge/blob/9dbadc10561f0e82aca8929fad4ba4ade6d681a8/Resources/VBA_Challenge_Original_2017_stock_analysis.png)
 - Original 2018 Results
